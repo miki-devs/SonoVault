@@ -1,0 +1,84 @@
+QWidget {
+    background-color: #404040;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+QPushButton {
+    background-color: #4a4a4a;
+    border: 1px solid #5a5a5a;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #5a5a5a;
+    border: 1px solid #6a6a6a;
+}
+
+QPushButton:pressed {
+    background-color: #3a3a3a;
+}
+
+QWidget#panelIzquierdo QPushButton { /* Asumiendo que el QWidget se llama panelIzquierdo */
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+QWidget#panelIzquierdo QPushButton:hover {
+    background-color: #3a3a3a;
+}
+
+#botonElegirBiblioteca, #botonBuscar, #botonFiltrarBusqueda, 
+#botonAleatorio, #botonCancionPrevia, #botonReproducirYPausar, 
+#botonCancionSiguiente, #botonFavorito, #botonMostrarLetra, 
+#botonColaDeReproduccion {
+    background-color: transparent;
+    border: none;
+    border-radius: 17px;
+}
+
+#botonElegirBiblioteca:hover, #botonBuscar:hover, #botonFiltrarBusqueda:hover,
+#botonAleatorio:hover, #botonCancionPrevia:hover, #botonReproducirYPausar:hover, 
+#botonCancionSiguiente:hover, #botonFavorito:hover, #botonMostrarLetra:hover, 
+#botonColaDeReproduccion:hover {
+    background-color: #3a3a3a;
+}
+
+
+QListWidget {
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #333;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: #555;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #444;
+    height: 4px; 
+    background: #444;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    width: 14px;
+    height: 14px;
+    margin: -5px 0; 
+    border-radius: 7px;
+}
