@@ -49,3 +49,11 @@ Aplicación de escritorio desarrollada en Python que permite reproducir música 
 git clone https://github.com/miki-devs/TU-REPO.git
 
 cd TU-REPO
+
+2. Instalar dependencias:
+
+pip install pyqt5 mutagen
+
+3. Ejecutar la aplicación:
+
+python main.py
